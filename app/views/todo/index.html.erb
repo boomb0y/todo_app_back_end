@@ -33,7 +33,13 @@ html {
 input {
   color:blue;
   background:lightgrey;
+  
 }
+.pomodoro{
+    width:50px;
+}
+
+
     
   </style>
   <body>
@@ -43,7 +49,7 @@ input {
       
       <li> 
       do laundry<br>
-      <span> 1 pomodoro</span>
+      <span><%=2-1%> pomodoros</span>
       </li>
       <li>
         pet cat<br>
@@ -63,7 +69,7 @@ input {
       
   </ul>
    <input type="text" name="new item">
-   <input type="text" name="time estimate">
+   <input type="text" id="pomodoro" name="time estimate">
    <input type="submit" value="submit">
   </body>
 </html>
