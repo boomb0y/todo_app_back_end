@@ -1,6 +1,8 @@
 class TodoController<ApplicationController
     def index
+        @todos = Todo.all
     end
+    
     def show 
         todo_id = params[:id].to_i
         @todo=Todo.find_by_id(todo_id)
