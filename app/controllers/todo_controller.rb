@@ -24,4 +24,6 @@ class TodoController<ApplicationController
             
         #when user clicks item 1, make description be wash car 
     end
+    
+    
 end
